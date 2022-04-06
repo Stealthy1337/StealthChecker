@@ -115,7 +115,7 @@ async def tokencheck():
         f.write('\n'.join(lock))
         f.close()
 
-    input('\nvalid: {}{} {}locked: {}{} {}invalid: {}{}{}\n\nAll valid and locked tokens were saved in the " Data" folder'.format(G, len(val), RE, Y, len(lock), RE, R, len(set(invalid)), RE))
+    input('\nvalid: {}{} {}locked: {}{} {}invalid: {}{}{}\n\nAll valid and locked tokens were saved in the "Data" folder'.format(G, len(val), RE, Y, len(lock), RE, R, len(set(invalid)), RE))
 
 if __name__ == '__main__':
     threading.Thread(target=changeTitle, daemon=True).start()
