@@ -2,7 +2,7 @@
 
 **A fast Discord token checker with proxy support made in Python**
 
-https://stealthy.cc/checker.png
+![checker](https://user-images.githubusercontent.com/82495646/163849686-28bdc5bf-b56e-4c66-9ac7-6ea15a946aa9.png)
 
 ## Setup
 
